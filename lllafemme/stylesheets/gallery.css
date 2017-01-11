@@ -1,3 +1,23 @@
+.images {
+  display: flex;
+  position: relative;;
+}
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.left img {
+  width: 100vh;
+  height: 100vh;
+}
+.right img {
+  width: 50vh;
+  height: 50vh;
+}
+
 .gallery {
   position: relative;
   overflow: hidden;
@@ -6,26 +26,22 @@
 .galleryRail {
   display: flex;
   transition: all .60s ease;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .galleryRail img {
   display: block;
-  width: 1020px;
   margin: 0 auto;
 }
 
+
+
 .galleryRail figure {
-  width: 100vw;
-  min-width: 100vw;
+  display: block;
+  margin: 0 auto;
 }
 
-.gallery figcaption {
-  height: 50px;
-  font-size: 14px;
-  line-height: 50px;
-  color: rgba(0,0,0,.4);
-  text-align: center;
-}
 
 .galleryNav  {
   position: absolute;
@@ -38,7 +54,7 @@
 }
 
 .galleryNav div {
-  position: relative;
+  position: relative;display: block;
   width: 20px;
   height: 20px;
   margin: 30px;
