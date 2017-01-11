@@ -21,7 +21,7 @@
 
 .gallery {
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .galleryRail {

@@ -1,6 +1,6 @@
 $(function() {
   var state = {
-    imagesQuantity: $('.galleryRail div').length,
+    imagesQuantity: $('.galleryRail img').length,
     currentImage: 0,
     imageWidth: 0
   }
