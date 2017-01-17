@@ -1,0 +1,81 @@
+
+
+.images {
+  display: flex;
+  position: relative;;
+}
+
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+figure.left {
+  width: 100vh;
+  height: 100vh;
+}
+figure.right {
+  width: 50vh;
+  height: 50vh;
+}
+
+.gallery {
+  position: relative;
+  overflow-y: hidden;;
+}
+
+.galleryRail {
+  display: flex;
+  transition: all .70s ease;
+}
+
+
+
+
+
+.galleryRail figure {
+  display: block;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+
+.galleryNav  {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 51px);
+
+}
+
+.galleryNav img {
+  position: relative;
+  display: block;
+  width: 8vh;
+  height: 8vh;
+  margin: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+
+
+
+.galleryNav .disabled {
+  opacity: 0;
+  cursor: default;
+}
+
+
+
+div#prev img {
+  transform: rotate(180deg);
+}
+div#next img {
+  transform: rotate(0deg);
+}

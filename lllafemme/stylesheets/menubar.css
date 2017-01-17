@@ -1,0 +1,15 @@
+.menubar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6vh;
+}
+
+.menubar a {
+  /*font-family: 'VT323', monospace;*/
+  font-family: 'Chathura', sans-serif;
+  font-size: 26px;
+  color: #232323;
+  text-decoration: none;
+  margin: 0 10px;
+}
