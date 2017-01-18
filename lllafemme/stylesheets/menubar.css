@@ -2,14 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 6vh;
+  height: 4vh;
 }
 
 .menubar a {
   /*font-family: 'VT323', monospace;*/
-  font-family: 'Chathura', sans-serif;
-  font-size: 26px;
-  color: #232323;
+  /*font-family: 'Chathura', sans-serif;*/
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-size: 1vh;
+  color: #505050;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 10px 10px 0;
 }

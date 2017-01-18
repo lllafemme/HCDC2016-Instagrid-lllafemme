@@ -1,8 +1,10 @@
-
+body{
+  overflow: hidden;
+}
 
 .images {
   display: flex;
-  position: relative;;
+  position: relative;
 }
 
 
@@ -13,22 +15,22 @@
 }
 
 figure.left {
-  width: 100vh;
-  height: 100vh;
+  width: 90vh;
+  height: 90vh;
 }
 figure.right {
-  width: 50vh;
-  height: 50vh;
+  width: 45vh;
+  height: 45vh;
 }
 
 .gallery {
   position: relative;
-  overflow-y: hidden;;
+  overflow-x: scroll;
 }
 
 .galleryRail {
   display: flex;
-  transition: all .70s ease;
+  transition: all .80s ease;
 }
 
 
@@ -47,19 +49,26 @@ figure.right {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: calc(100% - 51px);
+  width: calc(100% - 10vh);
+  height: calc(100% - 10vh);
 
 }
 
 .galleryNav img {
-  position: relative;
+  position: fixed;
   display: block;
   width: 8vh;
   height: 8vh;
-  margin: 30px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 2;
+  opacity: .4;
+  transition: all .3s ease-out;
+
+
+}
+
+.galleryNav img:hover {
+  opacity: 1;
 }
 
 
