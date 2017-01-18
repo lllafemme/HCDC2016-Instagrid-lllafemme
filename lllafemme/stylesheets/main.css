@@ -1,0 +1,32 @@
+.images {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.gallery {
+  margin: 15vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /*overflow: scroll;*/
+}
+
+.left {
+  width: 60vh;
+  height: 60vh;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.right figure {
+  width: 30vh;
+  height: 30vh;
+}

@@ -1,8 +1,8 @@
 body{
   overflow: hidden;
-
   margin: 0 auto;
 }
+
 
 .images {
   display: flex;
@@ -16,9 +16,9 @@ body{
   flex-direction: column;
 }
 
-figure.left {
-  width: 90vh;
-  height: 90vh;
+.left {
+  width: 60vh;
+  height: 60vh;
 }
 figure.right {
   width: 45vh;
