@@ -3,13 +3,10 @@ body{
   margin: 0 auto;
 }
 
-
 .images {
   display: flex;
   position: relative;
 }
-
-
 
 .right {
   display: flex;
@@ -20,6 +17,7 @@ body{
   width: 60vh;
   height: 60vh;
 }
+
 figure.right {
   width: 45vh;
   height: 45vh;
@@ -35,16 +33,11 @@ figure.right {
   transition: all .80s ease;
 }
 
-
-
-
-
 .galleryRail figure {
   display: block;
   background-size: cover;
   margin: 0 auto;
 }
-
 
 .galleryNav  {
   position: absolute;
@@ -65,28 +58,21 @@ figure.right {
   z-index: 2;
   opacity: .4;
   transition: all .3s ease-out;
-
-
 }
 
 .galleryNav img:hover {
   opacity: 1;
 }
 
-
-
-
-
 .galleryNav .disabled {
   opacity: 0;
   cursor: default;
 }
 
-
-
 div#prev img {
   transform: rotate(180deg);
 }
+
 div#next img {
   transform: rotate(0deg);
 }

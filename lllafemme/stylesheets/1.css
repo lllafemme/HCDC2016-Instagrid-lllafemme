@@ -3,8 +3,6 @@
   position: relative;;
 }
 
-
-
 .right {
   display: flex;
   flex-direction: column;
@@ -14,6 +12,7 @@ figure.left {
   width: 100vh;
   height: 100vh;
 }
+
 figure.right {
   width: 50vh;
   height: 50vh;
@@ -29,16 +28,11 @@ figure.right {
   transition: all .70s ease;
 }
 
-
-
-
-
 .galleryRail figure {
   display: block;
   background-size: cover;
   margin: 0 auto;
 }
-
 
 .galleryNav  {
   position: absolute;
@@ -47,7 +41,6 @@ figure.right {
   align-items: center;
   width: 100%;
   height: calc(100% - 51px);
-
 }
 
 .galleryNav img {
@@ -60,20 +53,15 @@ figure.right {
   z-index: 1;
 }
 
-
-
-
-
 .galleryNav .disabled {
   opacity: 0;
   cursor: default;
 }
 
-
-
 div#prev img {
   transform: rotate(180deg);
 }
+
 div#next img {
   transform: rotate(0deg);
 }
