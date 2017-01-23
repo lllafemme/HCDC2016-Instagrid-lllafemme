@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   overflow: hidden;
   margin: 0 auto;
@@ -13,14 +17,14 @@ body{
   flex-direction: column;
 }
 
-figure.left {
-  width: 90vh;
-  height: 90vh;
+.left {
+  width: 84vh;
+  height: 84vh;
 }
 
 figure.right {
-  width: 45vh;
-  height: 45vh;
+  width: 42vh;
+  height: 42vh;
 }
 
 .gallery {

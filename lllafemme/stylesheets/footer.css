@@ -8,13 +8,13 @@
 }
 
 .instagram {
-  position: fixed;
+  position: absolute;;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 6vh;
 }
 
 a {
@@ -23,7 +23,6 @@ a {
   font-size: 1vh;
   color: #505050;
   text-decoration: none;
-  margin: 0 10px;
 }
 
 p {
@@ -31,5 +30,5 @@ p {
   color: #ffd6e9;
   font-size: 3vh;
   text-decoration: underline;
-  margin-top: 10px;
+  margin-top: 8px;
 }

@@ -10,8 +10,6 @@
   margin: 15vh;
   display: flex;
   flex-direction: row;
-  overflow: hidden;
-  /*overflow: scroll;*/
 }
 
 .left {
@@ -29,4 +27,8 @@
 .right figure {
   width: 30vh;
   height: 30vh;
+}
+
+.instagram {
+    margin-top: 0vh;
 }

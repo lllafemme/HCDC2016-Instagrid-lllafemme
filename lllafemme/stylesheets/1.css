@@ -8,12 +8,12 @@
   flex-direction: column;
 }
 
-figure.left {
+.left {
   width: 100vh;
   height: 100vh;
 }
 
-figure.right {
+.right {
   width: 50vh;
   height: 50vh;
 }
