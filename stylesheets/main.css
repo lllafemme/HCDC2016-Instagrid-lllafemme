@@ -56,9 +56,3 @@ figure.right {
   width: 8vh;
   height: 8vh;
 }
-
-@media screen and (max-width: 600px) {
-  .gallery {
-    min-width: 400px;
-  }
-}
