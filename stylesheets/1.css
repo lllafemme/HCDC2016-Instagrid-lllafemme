@@ -43,8 +43,8 @@ figure.right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transition: all .70s ease;
-  transition: all .70s ease;
+  -webkit-transition: all .90s ease;
+  transition: all .90s ease;
 }
 
 .galleryRail figure {
@@ -65,7 +65,7 @@ figure.right {
       -ms-flex-align: center;
           align-items: center;
   width: calc(100% - 10vh);
-  height: calc(100% - 10vh);
+  height: calc(100% - 10vh - -15px);
 }
 
 .galleryNav img {

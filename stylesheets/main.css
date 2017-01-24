@@ -23,11 +23,6 @@
           flex-direction: row;
 }
 
-.left {
-  width: 60vh;
-  height: 60vh;
-}
-
 .right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +38,12 @@
       align-content: center;
 }
 
-.right figure {
+.left {
+  width: 60vh;
+  height: 60vh;
+}
+
+figure.right {
   width: 30vh;
   height: 30vh;
 }
@@ -55,4 +55,10 @@
 .galleryNav img {
   width: 8vh;
   height: 8vh;
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    min-width: 400px;
+  }
 }
